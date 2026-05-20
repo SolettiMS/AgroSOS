@@ -23,6 +23,16 @@ Acesse:
 http://127.0.0.1:3000
 ```
 
+## Deploy na Vercel
+
+Use a raiz deste repositório como Root Directory. A Vercel precisa encontrar estes arquivos na raiz do projeto:
+
+- `package.json`
+- `app/layout.tsx`
+- `app/page.tsx`
+
+Se o deploy mostrar `Couldn't find any pages or app directory`, confira se a pasta `app` foi commitada e enviada para o GitHub.
+
 ## Scripts
 
 ```bash
